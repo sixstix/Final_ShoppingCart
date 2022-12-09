@@ -18,7 +18,7 @@ html, body {
     padding-bottom: 30px;
 }
 
-.band-name {
+.name {
     text-align: center;
     margin: 0;
     font-size: 4em;
@@ -27,15 +27,34 @@ html, body {
     color: white;
 }
 
-.band-name-large {
+.name-large {
     font-size: 4em;
 }
 
-.content-section {
+.content-section1 {
+    margin: 1em;
+}
+.content-section2 {
     margin: 1em;
 }
 
-.container {
+.special{
+    margin-left: 360px;
+    margin-top: 15px;
+}
+    
+.container1 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}    
+    
+.container2 {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
@@ -47,8 +66,8 @@ html, body {
     font-size: 2.5em;
 }
 
+
 .main-footer {
-    display: flex;
     align-items: center;
     background-color: #021f29;
     color: white;
@@ -82,12 +101,35 @@ html, body {
     font-weight: bold;
 }
 
+.btn-primary2 {
+    color: white;
+    background-color: #164154;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-purchase {
+    padding: .40em .40em;
+    background-color: #088120;
+}
+
+.btn-purchase:hover {
+    padding: .40em .40em;
+    background-color: #08d962;
+}
+ 
 .btn-primary:hover {
     background-color: #2D9CDB;
 }
 
 .shop-item {
-    margin: 30px;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid #d8f3d4;
+    border-radius: 0.2rem;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
 }
 
 .shop-item-title {
@@ -124,7 +166,7 @@ html, body {
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 .cart-column {
@@ -182,7 +224,7 @@ html, body {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #f7f9f9;
     background-color: #eee;
     color: #333;
     padding: 0;
@@ -220,5 +262,5 @@ html, body {
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
-    font-size: 1.75em;
+    font-size: 2em;
 }
