@@ -34,9 +34,6 @@ html, body {
 .content-section1 {
     margin: 1em;
 }
-.content-section2 {
-    margin: 1em;
-}
 
 .special{
     margin-left: 360px;
@@ -103,7 +100,6 @@ html, body {
 
 .btn-primary2 {
     color: white;
-    background-color: #164154;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -126,7 +122,7 @@ html, body {
 .shop-item {
     margin: 3px;
     padding: 5px;
-    border: 1px solid #d8f3d4;
+    border: 1px solid #d4f2f3;
     border-radius: 0.2rem;
     text-align: center;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
